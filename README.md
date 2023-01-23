@@ -19,11 +19,11 @@
 # 安装&升级
 
 ```shell
-bash <(curl -Ls https://gitlab.com/misakablog/x-ui/-/raw/main/install.sh)
+bash <(curl -Ls https://github.com/rzwt/x-ui/tree/main/install.sh)
 ```
 
 ```shell
-wget -N --no-check-certificate https://gitlab.com/misakablog/x-ui/-/raw/main/install.sh && bash install.sh
+wget -N --no-check-certificate https://github.com/rzwt/x-ui/tree/main/install.sh && bash install.sh
 ```
 
 ## Telegram 机器人使用
