@@ -133,7 +133,7 @@ download_xui(){
     chmod +x x-ui bin/xray-linux-$(archAffix)
     cp -f x-ui.service /etc/systemd/system/
     
-    wget -N --no-check-certificate https://gitlab.com/misakablog/x-ui/-/raw/main/x-ui.sh -O /usr/bin/x-ui
+    wget -N --no-check-certificate https://raw.githubusercontent.com/rzwt/x-ui/main/x-ui.sh -O /usr/bin/x-ui
     chmod +x /usr/local/x-ui/x-ui.sh
     chmod +x /usr/bin/x-ui
 }
